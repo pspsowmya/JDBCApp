@@ -21,7 +21,7 @@ public class EmployeeDAO {
 		// Establishing Connection with Database 
 		try {
 			Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/registrationapp?"
-					+ "useSSL=false", "root", "system");
+					+ "useSSL=false", "<<username>>", "<<password>>");
 			//create statement using connection object 
 			PreparedStatement preparedStatement =  connection.prepareStatement(INSERT_USERS_SQL);
 
