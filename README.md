@@ -10,7 +10,7 @@ Steps to run the project
 1. Import the project as Dynamic web project 
 2. Make sure the latest version of tomcat is installed in your machine 
 3. Configure tomcat from the project build path 
-4. Add your mysql database username and password 
+4. Add your mysql database username and password in EmployeeDAO.java 
 5. Run the application on tomcat server and navigate to the path below
 
 http://localhost:8080/employeeRegister.jsp
